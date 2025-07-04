@@ -1,14 +1,16 @@
 # Adda
 Adda is a multiuser TCP-based chat application that allows multiple clients to communicate in real-time. It is designed with basic security features to protect the server and ensure smooth communication.
 
+![image](https://github.com/user-attachments/assets/3e4b0492-9591-4fdd-a4ab-dbc73b2485b6)
+
 ### Features
-Multiuser Chatting: Connect multiple clients over TCP for real-time messaging.
+ - Multiuser Chatting: Connect multiple clients over TCP for real-time messaging.
 
-Rate Limiting: Prevents message spamming by enforcing a delay between messages.
+ - Rate Limiting: Prevents message spamming by enforcing a delay between messages.
 
-Security Against Bots: Implements a strike and ban system to discourage bots and abusive behavior.
+ - Security Against Bots: Implements a strike and ban system to discourage bots and abusive behavior.
 
-Message Validation: Ensures all incoming messages are valid UTF-8 encoded strings to prevent server crashes or exploits.
+ - Message Validation: Ensures all incoming messages are valid UTF-8 encoded strings to prevent server crashes or exploits.
 
 ### How It Works
  #### Message Rate Limiting
